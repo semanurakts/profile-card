@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 90%;
+    max-width: 300px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+    border: 3px solid #0077b5;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 1.4rem;
+    color: #2e2e2e;
+}
+
+.card .title {
+    color: #666;
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.socials {
+    margin-bottom: 15px;
+}
+
+.socials a {
+    margin: 0 10px;
+    color: #555;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.socials a:hover {
+    color: #0077b5;
+    transform: scale(1.2);
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0077b5;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #005f8d;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
