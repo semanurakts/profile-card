@@ -42,6 +42,10 @@ Bu proje, HTML ve CSS kullanılarak hazırlanmış basit ve şık bir **Kişisel
 Projeyi canlı görmek için tıklayın:
 [https://semanurakts.github.io/profile-card/index.html](https://semanurakts.github.io/profile-card/index.html)
 
+## 📸 Ekran Görüntüsü
+
+<img src="profilecard.png" alt="Profil Kartı" width="700">
+
 ## 📄 Lisans
 
 Bu proje MIT Lisansı altında yayınlanmıştır. İstediğiniz gibi kullanabilir, geliştirebilir ve paylaşabilirsiniz.
